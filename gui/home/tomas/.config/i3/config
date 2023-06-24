@@ -52,7 +52,7 @@ focus_follows_mouse no
 focus_on_window_activation none
 
 # start a terminal
-bindsym $mod+Return exec /usr/bin/kitty.app/bin/kitty
+bindsym $mod+Return exec /usr/bin/kitty
 
 # kill focused window
 bindsym $mod+q kill
