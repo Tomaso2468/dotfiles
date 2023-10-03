@@ -20,4 +20,5 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 
+vim.g.nvim_tree_group_empty = 1
 

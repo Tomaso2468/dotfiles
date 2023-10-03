@@ -33,8 +33,10 @@ prompt custom_prompt
 alias ls="ls --color=auto"
 alias la="ls -a"
 alias ll="ls -la"
-alias nnn="nnn -eo"
+alias nnn="nnn -eor"
 alias vim="nvim"
 alias vi="nvim"
 alias v="nvim"
 
+
+[ -f "/home/tomas/.ghcup/env" ] && source "/home/tomas/.ghcup/env" # ghcup-env
