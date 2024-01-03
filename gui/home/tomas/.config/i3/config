@@ -307,10 +307,10 @@ exec steam
 exec kitty --name top sudo htop
 exec kitty --name edit --directory=~/dev ~/.config/start_nnn.sh
 exec kitty --name build --directory=~/dev ~/.config/start_nnn.sh
-exec kitty --name server --directory=~/server ~/.config/start_nnn.sh
-exec kitty --name sfiles --directory=~/server ~/.config/start_nnn.sh
-exec kitty --name display --hold neofetch
-exec kitty --name display --hold cava
+# exec kitty --name server --directory=~/server ~/.config/start_nnn.sh
+# exec kitty --name sfiles --directory=~/server ~/.config/start_nnn.sh
+# exec kitty --name display --hold neofetch
+# exec kitty --name display --hold cava
 exec obsidian
 exec whatsdesk
 
