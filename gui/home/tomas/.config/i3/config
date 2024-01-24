@@ -301,12 +301,12 @@ exec --no-startup-id lxpolkit
 # Startup Programs
 exec discord
 exec /opt/BlueMail/bluemail --disable-gpu-sandbox
-exec chromium --new-window --app=https://soundcloud.com
+# exec chromium --new-window --app=https://soundcloud.com
 exec chromium --new-window --app=https://track.toggl.com/timer
 exec chromium --new-window --app=https://todoist.com
 exec chromium --new-window --app=https://github.com
-exec steam
-exec kitty --name top sudo htop
+# exec steam
+# exec kitty --name top sudo htop
 exec kitty --name edit --directory=~/dev ~/.config/start_nnn.sh
 exec kitty --name build --directory=~/dev ~/.config/start_nnn.sh
 # exec kitty --name server --directory=~/server ~/.config/start_nnn.sh
@@ -314,7 +314,7 @@ exec kitty --name build --directory=~/dev ~/.config/start_nnn.sh
 # exec kitty --name display --hold neofetch
 # exec kitty --name display --hold cava
 exec obsidian
-exec whatsdesk
+# exec whatsdesk
 
 # Assignments
 assign [class="discord"] $ws11
